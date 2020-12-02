@@ -4,12 +4,12 @@
     
     --mainText: rgb(255, 255, 255);
     --secondaryText: rgb(181, 217, 230); 
-    --borderColor:#e7ebd9;
+    --borderColor:#bee62cb6;
    
-    --buttonColor:#c0f095;
+    --buttonColor:#bee62cb6;
     
 
-    --secondaryText:#e8f2f9;
+    --secondaryText:#4599d4c9;
     --themeDotBorder:dotted;
     --previewBg: rgba(171, 206, 183, 0.8);
     --previewShadow: #2b3d2cf1;
@@ -47,5 +47,10 @@ label, .input-field{
 }
 
 #submit-btn{
-    hover:
+    color: rgba(36, 143, 242, 0.714);
+}
+#submit-btn:hover{
+    box-shadow: 4px 6px rgba(94, 145, 22, 0.508);
+    color: #fff;
+    transition: 500ms;
 }

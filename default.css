@@ -19,6 +19,11 @@ html, body{
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+body * {
+  transition: 300ms;
+}
+
 h1, h2, h3, h4, h5, h6, strong{
   color: var(--mainText);
 }
@@ -189,7 +194,7 @@ h6{font-size: 16px;}
     background-color: #123554;
 }
 #green-mode{
-    background-color: #429f64bd;
+    background-color: #197c5dc5;
 }
 #purple-mode{
     background-color: #7E4C74;
@@ -242,7 +247,7 @@ h6{font-size: 16px;}
 
 .about-wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, min-max(320px, 1fr));
   padding-bottom: 50px;
   padding-top: 50px;
   gap: 100px;

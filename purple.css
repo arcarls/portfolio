@@ -4,9 +4,9 @@
     
     --mainText: rgb(255, 255, 255);
     --secondaryText: rgb(181, 217, 230); 
-    --borderColor:#e7ebd9;
+    --borderColor:#80b7eb;
   
-    --buttonColor:#1e5d9b;
+    --buttonColor:#221a3fbd;
     
 
     --secondaryText:#e8f2f9;
@@ -40,4 +40,10 @@ p{
 
 label, .input-field{
     color: white;
+}
+
+#submit-btn:hover{
+  box-shadow: 4px 6px #b5d849c2;
+  color: #fff;
+  transition: 500ms;
 }

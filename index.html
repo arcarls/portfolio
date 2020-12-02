@@ -12,10 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="default.css">
         
-        <link rel="stylesheet" id="theme-style  type="text/css" href="blue.css">
-       
-        <link rel="stylesheet" id="theme-style  type="text/css" href="purple.css"> 
- <link rel="stylesheet" id="theme-style  type="text/css" href="green.css">
+        <link id="theme-style"  rel="stylesheet" type="text/css" href="">
+        
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
@@ -48,10 +46,10 @@
               <h5 style="text-align: center; line-height: 0">Customize Theme</h5>
               
               <div class="theme-options-wrapper">
-                <div id="light-mode" class="theme-dot"></div>
-                <div id="blue-mode" class="theme-dot"></div> 
-                <div id="green-mode" class="theme-dot"></div> 
-                <div id="purple-mode" class="theme-dot"></div>   
+                <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                <div data-mode="blue" id="blue-mode" class="theme-dot"></div> 
+                <div data-mode="green" id="green-mode" class="theme-dot"></div> 
+                <div data-mode="purple" id="purple-mode" class="theme-dot"></div>   
               </div>
               <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
 
@@ -64,7 +62,7 @@
                     <div id="corner-tl" class="corner"></div>
                     <div id="corner-tr" class="corner"></div>
                     <h3>What I do</h3>
-                    <p>I was a barista in a past life, now my time is spent writing code...<br> with a side of coffee.</p>
+                    <p>Taking my past coffee career to fuel my programming passions</p>
                     <div id="corner-br" class="corner"></div>
                   <div id="corner-bl" class="corner"></div>
                 </div>  
@@ -177,5 +175,8 @@
         </form>
         </div>
       </section>
+
+    <script type+"text/javascript" src="script.js"></script>
+
   </body>
 </html>
