@@ -1,0 +1,51 @@
+:root{
+    --mainColor: #12543fde;
+    --secondaryColor:rgba(46, 69, 65, 0.836);
+    
+    --mainText: rgb(255, 255, 255);
+    --secondaryText: rgb(181, 217, 230); 
+    --borderColor:#e7ebd9;
+   
+    --buttonColor:#c0f095;
+    
+
+    --secondaryText:#e8f2f9;
+    --themeDotBorder:dotted;
+    --previewBg: rgba(171, 206, 183, 0.8);
+    --previewShadow: #2b3d2cf1;
+}
+
+ul, h1, h2, h3, h4, h5, h6, strong, .post-title{
+    color: rgb(227, 255, 172);
+  }
+
+p{
+    color:rgba(166, 239, 255, 0.612);
+}
+
+.corner{
+    border: #82b817;
+}
+
+.post-preview{
+    background-color: rgba(102, 154, 213, 0.529);
+    padding: 15px;
+  }
+  
+  .post-title{
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .post-intro{
+    color: #ffffff;
+    font-size: 18px;  
+  }
+
+label, .input-field{
+    color: white;
+}
+
+#submit-btn{
+    hover:
+}

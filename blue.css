@@ -1,0 +1,43 @@
+:root{
+    --mainColor: #123554;
+    --secondaryColor:rgba(46, 47, 69, 0.733);
+    
+    --mainText: rgb(255, 255, 255);
+    --secondaryText: rgb(181, 217, 230); 
+    --borderColor:#e7ebd9;
+    --mainText:rgba(17, 52, 209, 0.749);
+    --buttonColor:#1e5d9b;
+    
+
+    --secondaryText:#e8f2f9;
+    --themeDotBorder:#1e5d9b;
+    --previewBg: rgba(171, 180, 206, 0.8);
+    --previewShadow: #4e6696a3;
+}
+
+ul, h1, h2, h3, h4, h5, h6, strong, .post-title{
+    color: rgb(227, 255, 172);
+  }
+
+p{
+    color:rgba(166, 239, 255, 0.612);
+}
+
+.post-preview{
+    background-color: rgba(102, 154, 213, 0.529);
+    padding: 15px;
+  }
+  
+  .post-title{
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .post-intro{
+    color: #ffffff;
+    font-size: 18px;  
+  }
+
+label, .input-field{
+    color: white;
+}
